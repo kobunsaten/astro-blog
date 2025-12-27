@@ -29,7 +29,7 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
-          version: 9 # 你的 pnpm 版本，可改成本地一致
+          version: 9  # 改成你本地 pnpm 版本
 
       - name: Install dependencies
         run: pnpm install
